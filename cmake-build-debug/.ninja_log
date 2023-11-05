@@ -1,0 +1,5 @@
+# ninja log v5
+0	1017	7204649440733691	CMakeFiles/PetInfo.dir/main.cpp.obj	9fd666d3e8cff9c8
+7	1059	7204649441156695	CMakeFiles/PetInfo.dir/Pet.cpp.obj	dfa9b9ab33c35a3b
+14	1089	7204649441466821	CMakeFiles/PetInfo.dir/Cat.cpp.obj	42840d1c56e1f906
+1089	1392	7204649444434723	PetInfo.exe	b2e95dbdcc8ecdfa
