@@ -4,7 +4,9 @@
 #include "Pet.h"
 #include <iostream>
 #include <string>
-using namespace std;
+using std::string;
+using std::cout;
+using std::endl;
 
 void Pet::SetName(string userName) {
     petName = userName;
@@ -18,7 +20,7 @@ void Pet::SetAge(int userAge) {
     petAge = userAge;
 }
 
-int Pet::GetAge() {
+int Pet::GetAge() const {
     return petAge;
 }
 

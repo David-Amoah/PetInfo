@@ -5,7 +5,8 @@
 #define PETINFO_PET_H
 
 #include <string>
-using namespace std;
+//using namespace std;
+using std::string;
 
 class Pet {
 protected:
@@ -19,7 +20,7 @@ public:
 
     void SetAge(int userAge);
 
-    int GetAge();
+    int GetAge() const;
 
     void PrintInfo();
 };
